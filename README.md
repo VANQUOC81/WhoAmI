@@ -20,4 +20,4 @@ Welcome to my personal website, http://www.vanquoc.com/. The website is a landin
 - The website is hosted on the Azure Static Web Apps service
 - Continuous Integration (CI) happens via GitHub Action Workflow which builds the source
 - Continuous Delivery (CD) happens via GitHub Action Workflow that after CI triggers deployment on an Azure staging/test environment
-- Continuous Deployment (CD) happens via GitHub Action Workflow after closing of Pull Request triggers deployment on an Azure prod environment
+- Continuous Deployment (CD) happens via GitHub Action Workflow after closing of Pull Request or direct push on master triggers deployment on an Azure prod environment
